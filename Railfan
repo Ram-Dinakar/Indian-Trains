@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="sectionHome">
+                <div class="col-12 col-md-12 col-lg-12 card d-flex flex-column justify-content-end">
+                    <div class="card1">
+                        <h1 class="head">Indian Railways</h1>
+                        <p class="para">About The Famous Trains In India</p>
+                        <div class="d-flex flex-row justify-content-center">
+                            <button class="btn btn-success" onclick="display('sectionTrains')">Click Here To Go</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sectionTrains" class="col-12 col-md-12 col-lg-12 card2">
+                <div class="d-flex flex-row">
+                    <img src="https://media.istockphoto.com/id/1902331837/photo/indias-first-indigenous-development-semi-high-speed-vande-bharat-express-also-known-as-train.jpg?s=612x612&w=0&k=20&c=16jReanvhLHTDaWKmnh2LjlE2e1xlJueJE1hK9-qrtk=" class="image m-4" onclick="display('sectionVande')" />
+                    <img src="https://imagesvs.oneindia.com/img/2016/04/05-1459837624-gatimanexpress.jpg" class="image m-4" onclick="display('sectionGatiman')" />
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://i.pinimg.com/736x/96/08/48/9608488c14363706e11d2141aa7dc77b.jpg" class="image m-4" onclick="display('sectionRajdhani')" />
+                    <img src="https://www.team-bhp.com/sites/default/files/pictures2021/1_170.jpeg" class="image m-4" onclick="display('sectionTejas')" />
+                </div>
+                <div class="d-flex flex-row">
+                    <img src="https://th-i.thgim.com/public/news/cities/Mangalore/2wy3nm/article24336271.ece/alternates/LANDSCAPE_1200/05MNHUMSAFAR" class="image m-4" onclick="display('sectionHumsafar')" />
+                    <img src="https://images.odishatv.in/uploadimage/library/16_9/16_9_5/recent_photo_1744858286.webp" class="image m-4" onclick="display('sectionDouble')" />
+                </div>
+                <div class="d-flex flex-row justify-content-center m-1">
+                    <button class="btn btn-primary" onclick="display('sectionHome')">Back</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 card2" id="sectionVande">
+                <h1 class="heading m-5">About Vande Bharat Express</h1>
+                <p class="para1 m-5">The Vande Bharat Express is India's first indigenously designed and manufactured semi-high-speed train, introduced by Indian Railways to modernize and expedite rail travel across the country. Also known as Train 18, it was first launched in 2019 and has since expanded to over 60 operational routes as of mid-2025.</p>
+                <div class="d-flex flex-row justify-content-center m-5">
+                    <button class="btn btn-primary" onclick="display('sectionTrains')">Back</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 card2" id="sectionGatiman">
+                <h1 class="heading m-5">About Gatiman Express</h1>
+                <p class="para1 m-5">The Gatimaan Express is India’s first semi-high-speed train, introduced by Indian Railways to modernize rail travel. It operates between Hazrat Nizamuddin (Delhi) and Virangana Lakshmibai Junction (Jhansi), covering a distance of approximately 403 km.The train achieves a top speed of 160 km/h, making it the fastest operational train in India.</p>
+                <div class="d-flex flex-row justify-content-center m-5">
+                    <button class="btn btn-primary" onclick="display('sectionTrains')">Back</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 card2" id="sectionRajdhani">
+                <h1 class="heading m-5">About Rajdhani Express</h1>
+                <p class="para1 m-5">The Rajdhani Express is a premier series of fully air-conditioned trains operated by Indian Railways, connecting the national capital, New Delhi, with various state capitals and major cities across India. Introduced on March 1, 1969, the Rajdhani Express was designed to provide fast and comfortable travel, setting a benchmark for premium train services in the country.</p>
+                <div class="d-flex flex-row justify-content-center m-5">
+                    <button class="btn btn-primary" onclick="display('sectionTrains')">Back</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 card2" id="sectionTejas">
+                <h1 class="heading m-5">About Tejas Express</h1>
+                <p class="para1 m-5">The Tejas Express is a premium, fully air-conditioned train service operated by the Indian Railway Catering and Tourism Corporation (IRCTC), offering passengers a luxurious and modern travel experience. Launched in 2017, it is India's first semi-high-speed train and is designed to provide comfort and convenience akin to air travel.</p>
+                <div class="d-flex flex-row justify-content-center m-5">
+                    <button class="btn btn-primary" onclick="display('sectionTrains')">Back</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 card2" id="sectionHumsafar">
+                <h1 class="heading m-5">About Humsafar Express</h1>
+                <p class="para1 m-5">The Humsafar Express is a series of premium, fully air-conditioned 3-tier sleeper trains introduced by Indian Railways to offer enhanced comfort and modern amenities for long-distance travelers. Launched on December 16, 2016, with the inaugural service between Gorakhpur and New Delhi, the Humsafar Express aims to provide a superior travel experience for passengers.</p>
+                <div class="d-flex flex-row justify-content-center m-5">
+                    <button class="btn btn-primary" onclick="display('sectionTrains')">Back</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-12 card2" id="sectionDouble">
+                <h1 class="heading m-5">About Double Decker Express</h1>
+                <p class="para1 m-5">The Double Decker Express trains of Indian Railways are a series of high-priority, fully air-conditioned two-level express services designed to accommodate more passengers on high-demand short to medium-distance routes. These trains are particularly beneficial fo r urban corridors with heavy commuter traffic.</p>
+                <div class="d-flex flex-row justify-content-center m-5">
+                    <button class="btn btn-primary" onclick="display('sectionTrains')">Back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
+
+
+
+CSS code : 
+
+
+.card {
+    background-image: url("https://i.pinimg.com/originals/51/9a/87/519a872eb656d92864b746375a9b258b.jpg?f=sy");
+    height: 140vh;
+    background-size: cover;
+}
+
+.card1 {
+    background-color: #ffffff;
+    height: 30vh;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.head {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+}
+
+.para {
+    font-family: "Bree Serif";
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.card2 {
+    background-color: black;
+    height: 130vh;
+}
+
+.image {
+    height: 200px;
+    width: 220px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.heading {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.para1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
+
+
